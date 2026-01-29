@@ -7,7 +7,7 @@ class TestPerformanceRating_test(unittest.TestCase):
     # EC1: time < 0
     def test_t1(self):
         pr = PerformanceRating()
-        self.assertEqual(pr.rate(-5, True), "ERROR")
+        self.assertEqual(pr.rate(-5, True), "ERROR") 
 
     # EC2: 0 <= time <= 12
     def test_t2(self):
